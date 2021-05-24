@@ -7,7 +7,7 @@
 // @include      *://fuckyouarkeros.fun/*
 // ==/UserScript==
 
-fetch('https://raw.githubusercontent.com/TouchedByDarkness/pixelplanet-checkpoints/raw/main/script.js')
+fetch('https://raw.githubusercontent.com/TouchedByDarkness/pixelplanet-checkpoints/main/script.js')
 .then(res => res.text())
 .then(code => {
   const script = document.createElement('script');
