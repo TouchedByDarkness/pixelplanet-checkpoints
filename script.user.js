@@ -1,14 +1,10 @@
 // ==UserScript==
 // @name         PP Checkpoints
-// @version      1.0
-// @description  none
+// @version      2.0
+// @description  touchedbydarkness.github.io
 // @author       Darkness
 // @include      *://pixelplanet.fun/*
 // @include      *://fuckyouarkeros.fun/*
-// @grant        none
-// @homepage     https://github.com/TouchedByDarkness
-// @updateURL    https://github.com/TouchedByDarkness/pixelplanet-checkpoints/raw/main/script.user.js
-// @downloadURL  https://github.com/TouchedByDarkness/pixelplanet-checkpoints/raw/main/script.user.js
 // ==/UserScript==
 
 const script = document.createElement('script');
