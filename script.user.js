@@ -7,6 +7,10 @@
 // @include      *://fuckyouarkeros.fun/*
 // ==/UserScript==
 
-const script = document.createElement('script');
-script.src = 'https://github.com/TouchedByDarkness/pixelplanet-checkpoints/raw/main/script.user.js';
-document.body.appendChild(script);
+fetch('https://github.com/TouchedByDarkness/pixelplanet-checkpoints/raw/main/script.user.js')
+.then(res => res.text())
+.then(code => {
+  const script = document.createElement('script');
+  script.innerHTML = code;
+  document.body.appendChild(script);
+});
